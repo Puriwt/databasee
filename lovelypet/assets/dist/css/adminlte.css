@@ -49,6 +49,8 @@
   box-sizing: border-box;
 }
 
+
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -28474,7 +28476,7 @@ blockquote.quote-gray-dark h6 {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #F2F8FF !important;
 }
 
 .bg-dark,

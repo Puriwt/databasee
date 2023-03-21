@@ -42,20 +42,21 @@ header("location:index.php?page=home");
   <main id="main" >
   	
   		<div class="align-self-center w-100">
-		<h4 class="text-white text-center"><b>pet Lovely Admin</b></h4>
+		<h4 class="text-gray  text-center" style="margin: 0 1em 1.5em 1em; font-size: 1.8em;"><b>Pet Lovely Admin</b></h4>
   		<div id="login-center" class="bg-dark row justify-content-center">
-  			<div class="card col-md-4">
+  			<div class="card col-md-5" style="border-radius: 1em;">
   				<div class="card-body">
   					<form id="login-form" >
   						<div class="form-group">
-  							<label for="email" class="control-label text-dark">Email</label>
-  							<input type="text" id="email" name="email" class="form-control form-control-sm">
+                <p class="text-gray  text-center" style="font-size: 1.2em;" >Login with Administrator</p>
+  							<label for="email" class="control-label text-gray">Email</label>
+  							<input type="text" id="email" name="email" class="form-control form-control-sm" style="border-radius: 0.7em;">
   						</div>
   						<div class="form-group">
-  							<label for="password" class="control-label text-dark">Password</label>
-  							<input type="password" id="password" name="password" class="form-control form-control-sm">
+  							<label for="password" class="control-label text-gray">Password</label>
+  							<input type="password" id="password" name="password" class="form-control form-control-sm" style="border-radius: 0.7em; margin-bottom: 0.5em;">
   						</div>
-  						<center><button class="btn-sm btn-block btn-wave col-md-4 btn-primary">Login</button></center>
+  						<center><button class="btn-sm btn-block btn-wave col-md-4 btn-primary" style="border-radius: 0.7em;  margin-top: 0.5em;">Login</button></center>
   					</form>
   				</div>
   			</div>
